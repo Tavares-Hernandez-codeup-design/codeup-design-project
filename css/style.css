@@ -1,6 +1,6 @@
 #red-circle {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-color: #E6563B;
     color: #FFFFFF;
@@ -10,8 +10,8 @@
 }
 
 #orange-circle {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-color: #EB9D3A;
     color: #FFFFFF;
@@ -20,8 +20,8 @@
 }
 
 #green-circle {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-color: #7CB06C;
     color: #FFFFFF;
@@ -30,8 +30,8 @@
 }
 
 #turquoise-circle {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-color: #00ABA9;
     color: #FFFFFF;
