@@ -1,57 +1,58 @@
-#red-circle {
-    width: 70px;
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+.circle-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     height: 70px;
+    width: 70px;
     border-radius: 50%;
+    border: 4px solid white;
+}
+
+.red-circle {
     background-color: #E6563B;
     color: #FFFFFF;
-    text-align: center;
-    line-height: 100px;
-
 }
 
-#orange-circle {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+.orange-circle {
     background-color: #EB9D3A;
     color: #FFFFFF;
-    text-align: center;
-    line-height: 100px;
 }
 
-#green-circle {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+.green-circle {
     background-color: #7CB06C;
     color: #FFFFFF;
-    text-align: center;
-    line-height: 100px;
 }
 
-#turquoise-circle {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+.turquoise-circle {
     background-color: #00ABA9;
     color: #FFFFFF;
-    text-align: center;
-    line-height: 100px;
 }
 
 body {
     background-color: #E6E6E6;
 }
 
-#circles {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*height: 50vh;*/
-}
-
-h1 h3 {
+h1,
+h3 {
     font-family: 'Anton', sans-serif;
+    text-align: center;
 }
 
 h1 {
