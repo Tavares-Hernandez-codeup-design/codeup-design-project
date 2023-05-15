@@ -267,3 +267,13 @@ img {
     }
     .last-container
 }
+
+.admin-container .col-9 {
+    font-family: 'Anton', sans-serif;
+    font-size: 26px;
+}
+
+.admin-container p {
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+}
