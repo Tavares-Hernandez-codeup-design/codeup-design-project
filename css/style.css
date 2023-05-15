@@ -244,3 +244,26 @@ h6 {
         max-width: 50%;
     }
 }
+
+.small-images {
+    border: .2em solid #e6e6e6;
+    border-radius: 1px;
+    background-size: cover;
+}
+
+.sub-title {
+    text-align: center;
+    margin-top: 5em;
+}
+
+img {
+    width: 80px;
+    height: auto;
+}
+
+@media screen and (max-width: 991px) {
+    .admin-container {
+        display: none;
+    }
+    .last-container
+}
